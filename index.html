@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parrafo</title>
+</head>
+<body>
+    <h1>Tipos de imput</h1>
+    <p>
+        <form action="Procesa.php">
+            <fieldset>
+    </p>
+        <label for="nom">Nombre</label>
+        <input type="text" maxlength="6" id="nom" name="Nombre">
+        <p>
+        <label for="Contra">Contraseña</label>
+        <input type="text" maxlength="8" id="Contra" name="Contraseña">
+        </p>
+        <p>
+            <label for="Hombre">Hombre</label> <input type="radio" value="H" id="Hombre"
+            checked name="genero">
+
+            <label for="Mujer">Mujer</label> <input type="radio" value="M" id="Mujer"
+            checked name="genero">
+        </p>
+        <p>
+        <label for="Fumador">Fumador/a</label><input id="Fumador" type="checkbox" name="Fumador">
+        </p>
+        </fieldset>
+        <p>
+            <Label for="provincia">Provincia</Label>
+            <select name="provincia" id="provincia">
+            <option value="ciu">Ciudad Real</option>
+            <option value="tol">Toledo</option>
+            <option value="alb">Albacete</option>
+            <option value="cue">Cuenca</option>
+            </select>
+        </p>
+        <p>
+            
+        <label for="obs">Observaciones:</label>
+        
+        <p> 
+        <textarea name="obs" id="obs" cols="30" rows="10">
+        </textarea>
+        </p>
+    
+        <p>
+        <label for="color">Color</label>
+        <input type="color" name="color" id="color">
+    </p>
+    <p>
+        <label for="fecha-nac">Fecha de nacimiento</label>
+        <input type="date">
+    </p>
+    <p>
+        <label for="edad">Edad</label>
+        <input type="number" name="edad" id="edad" min="8" max="100">
+    </p>
+    <p>
+        <input type="submit" value="Enviar datos">
+    <input type="reset">
+    </p>
+        
+    </form>
+
+</body>
+</html>
