@@ -6,16 +6,21 @@
     <title>Parrafo</title>
 </head>
 <body>
-    <h1>Tipos de imput</h1>
-    <p>
+        <h1>Tipos de imput</h1>
+        <p>
         <form action="Procesa.php">
             <fieldset>
-    </p>
+        </p>
         <label for="nom">Nombre</label>
-        <input type="text" maxlength="6" id="nom" name="Nombre">
+        <input type="text" maxlength="6" id="nom" name="Nombre"
+        placeholder="Escriba su nombre completo">
+        <p>      
+        <label for="pob">Poblacion</label>
+        <input type="text" maxlength="10" name="Poblacion" id="pob" value="Alcázar de san juan">
+        </p>
         <p>
         <label for="Contra">Contraseña</label>
-        <input type="text" maxlength="8" id="Contra" name="Contraseña">
+        <input type="password" maxlength="8" id="Contra" name="Contraseña">
         </p>
         <p>
             <label for="Hombre">Hombre</label> <input type="radio" value="H" id="Hombre"
@@ -40,8 +45,8 @@
         <p>
             
         <label for="obs">Observaciones:</label>
-        
-        <p> 
+    
+        <p>
         <textarea name="obs" id="obs" cols="30" rows="10">
         </textarea>
         </p>
@@ -49,19 +54,19 @@
         <p>
         <label for="color">Color</label>
         <input type="color" name="color" id="color">
-    </p>
-    <p>
+        </p>
+        <p>
         <label for="fecha-nac">Fecha de nacimiento</label>
         <input type="date">
-    </p>
-    <p>
+        </p>
+        <p>
         <label for="edad">Edad</label>
         <input type="number" name="edad" id="edad" min="8" max="100">
-    </p>
-    <p>
+        </p>
+        <p>
         <input type="submit" value="Enviar datos">
-    <input type="reset">
-    </p>
+        <input type="reset">
+        </p>
         
     </form>
 
